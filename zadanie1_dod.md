@@ -17,7 +17,7 @@ Zeby uruchomic kontener należy użyć polecenia:
 
 Etap 1 - Dockerfile
 
-<img width="50" height="50" alt="Zrzut ekranu 2023-05-12 o 21 18 09" src="https://github.com/Walicce/proj1_chmury/assets/60614660/98a7b762-858c-4ae6-9fb8-54e5d0780c83">
+<img width="157" alt="Zrzut ekranu 2023-05-12 o 21 18 09" src="https://github.com/Walicce/proj1_chmury/assets/60614660/98a7b762-858c-4ae6-9fb8-54e5d0780c83">
 
 
 
@@ -55,4 +55,4 @@ Etap 1 - Dockerfile
 
 
 
-![4k0w7k3a0t461](https://github.com/Walicce/proj1_chmury/assets/60614660/55dba286-a76e-47b0-b381-9dc544908470)
+<img width="60" height = "60" alt="Zrzut ekranu 2023-05-12 o 21 18 09" src=https://github.com/Walicce/proj1_chmury/assets/60614660/55dba286-a76e-47b0-b381-9dc544908470>
