@@ -31,7 +31,7 @@ b. Aby uruchomić kontener na podstawie zbudowanego obrazu, należy wykonać pol
 
 
 c. Aby uzyskać informacje, które wygenerował serwer w trakcie uruchamiania kontenera, należy wykonać polecenie:
-<b>docker logs <nazwa kontenera> </b>
+<b>docker logs "nazwa kontenera" </b>
   
 <img width="866" alt="Zrzut ekranu 2023-05-12 o 21 04 14" src="https://github.com/Walicce/proj1_chmury/assets/60614660/f14290b6-3902-41a8-8266-6b3a60f45954">
 
