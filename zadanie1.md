@@ -27,12 +27,13 @@ Docker build -t proj1_chmury .
 b. Aby uruchomić kontener na podstawie zbudowanego obrazu, należy wykonać polecenie:
 Docker run -p 3000:3000 proj1_chmury
 
-<img width="644" alt="Zrzut ekranu 2023-05-10 o 12 08 52" src="https://github.com/Walicce/proj1_chmury/assets/60614660/7a64e050-350f-4a8c-9149-64699ee0f883">
+<img width="874" alt="Zrzut ekranu 2023-05-12 o 21 02 35" src="https://github.com/Walicce/proj1_chmury/assets/60614660/2bf759f4-b643-4bc1-9035-1c52e26f57d2">
+
 
 c. Aby uzyskać informacje, które wygenerował serwer w trakcie uruchamiania kontenera, należy wykonać polecenie:
 docker logs <nazwa kontenera>
   
-<img width="642" alt="Zrzut ekranu 2023-05-10 o 12 11 41" src="https://github.com/Walicce/proj1_chmury/assets/60614660/92c9fc3e-c3d1-4aa5-ab92-3f68dbc45b6c">
+<img width="866" alt="Zrzut ekranu 2023-05-12 o 21 04 14" src="https://github.com/Walicce/proj1_chmury/assets/60614660/f14290b6-3902-41a8-8266-6b3a60f45954">
 
 d. Aby sprawdzić, ile warstw posiada zbudowany obraz, należy wykonać polecenie:
 docker history proj1_chmury
