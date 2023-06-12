@@ -13,14 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check the repo
-      uses: actions/checkout@v2
+      - name: Check the repo
+        uses: actions/checkout@v2
 
-    - name: Build Docker image
-      run: docker build -t nadzeyas/lab14:latest .
+      - name: Build Docker image
+        run: docker build -t nadzeyas/lab14:${{ github.sha }} .
 
-    - name: Login to DockerHub
-      run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_TOKEN }}
+      - name: Login to DockerHub
+        run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_TOKEN }}
 
-    - name: Push Docker image
-      run: docker push nadzeyas/lab14:latest
+      - name: Push Docker image
+        run: docker push nadzeyas/lab14:${{ github.sha }}
